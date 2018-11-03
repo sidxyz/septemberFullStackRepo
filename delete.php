@@ -21,41 +21,24 @@
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Add Student Data</h2>
-        <p class="lead">The data you enter here will be shown on the next page</p>
+        <h2>Delet Student Data</h2>
+        <p class="lead">By Email</p>
       </div>
 
       <div class="row">
         <div class="col-md-12 order-md-1">
           
-          <form class="needs-validation" action="form-processing.php" method="POST" novalidate>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" name="firstName" required>
-                <div class="invalid-feedback">
-                  Valid first name is required.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" name="lastName" required>
-                <div class="invalid-feedback">
-                  Valid last name is required.
-                </div>
-              </div>
-
-            </div>
+          <form class="needs-validation" action="student-delete-backend.php" method="POST" novalidate>
 
             <div class="mb-3">
-              <label for="email">Email <span class="text-muted">(Optional)</span></label>
+              <label for="email">Email <span class="text-muted">(Compulsory)</span></label>
               <input type="email" name="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
             
-                <button type="submit" class="btn btn-primary">Add Student</button>
+                <button type="submit" class="btn btn-primary">Remove Student</button>
                 
    
             </div>

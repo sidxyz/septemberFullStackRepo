@@ -1,3 +1,6 @@
+<?php
+require_once('student-edit-backend.php');
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,25 +24,25 @@
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Add Student Data</h2>
+        <h2>Edit Existing Student Data</h2>
         <p class="lead">The data you enter here will be shown on the next page</p>
       </div>
 
       <div class="row">
         <div class="col-md-12 order-md-1">
           
-          <form class="needs-validation" action="form-processing.php" method="POST" novalidate>
+          <form class="needs-validation" action="student-update.php" method="POST" novalidate>
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" name="firstName" required>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="<?php echo $output[0]['first_name']; ?>" name="firstName" required>
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" name="lastName" required>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="<?php echo $output[0]['last_name']; ?>" name="lastName" required>
                 <div class="invalid-feedback">
                   Valid last name is required.
                 </div>
@@ -49,13 +52,13 @@
 
             <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" name="email" class="form-control" id="email" placeholder="you@example.com">
+              <input type="email" name="email" class="form-control" id="email" placeholder="you@example.com" value="<?php echo $output[0]['email']; ?>"> 
               <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
               </div>
             </div>
             
-                <button type="submit" class="btn btn-primary">Add Student</button>
+                <button type="submit" class="btn btn-primary">Update Student</button>
                 
    
             </div>
