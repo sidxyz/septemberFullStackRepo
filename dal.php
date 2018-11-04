@@ -16,70 +16,93 @@ class Database
 		return $pdo;	
 	}
 	
-	public function insertQuery($query)
-	{
-		try 
-		{
-			$pdo = $this->connect();
-			$insertStatement = $pdo->prepare($query);
-			$insertSuccess = $insertStatement->execute();
-			return true;	
-		} 
-		catch (Exception $e) 
-		{
-			 var_dump("insert query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
-			 return false;
-		}
-	}
-
-	public function selectQuery($query)
+	public function executeQuery($query,$type)
 	{
 		try 
 		{
 			$pdo = $this->connect();
 			$statement = $pdo->prepare($query);
 			$success = $statement->execute();
+
+			if($type=="select")
 			$output = $statement->fetchAll();
+			else
+			$output = true;
+
 			return $output;	
 		} 
 		catch (Exception $e) 
 		{
-			 var_dump("Select query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
-			 return false;
-		}	
-	}
-
-	public function deleteQuery($query)
-	{
-	 	try 
-		{
-			$pdo = $this->connect();
-			$insertStatement = $pdo->prepare($query);
-			$insertSuccess = $insertStatement->execute();
-			return true;	
-		} 
-		catch (Exception $e) 
-		{
-			 var_dump("Delete query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
+			 var_dump($type." query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
 			 return false;
 		}
 	}
 
-	public function updateQuery($query)
-	{
-		try 
-		{
-			$pdo = $this->connect();
-			$insertStatement = $pdo->prepare($query);
-			$insertSuccess = $insertStatement->execute();
-			return true;	
-		} 
-		catch (Exception $e) 
-		{
-			 var_dump("update query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
-			 return false;
-		}
-	}
+
+	// public function insertQuery($query)
+	// {
+	// 	try 
+	// 	{
+	// 		$pdo = $this->connect();
+	// 		$insertStatement = $pdo->prepare($query);
+	// 		$insertSuccess = $insertStatement->execute();
+	// 		return true;	
+	// 	} 
+	// 	catch (Exception $e) 
+	// 	{
+	// 		 var_dump("insert query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
+	// 		 return false;
+	// 	}
+	// }
+
+	// public function selectQuery($query)
+	// {
+	// 	try 
+	// 	{
+	// 		$pdo = $this->connect();
+	// 		$statement = $pdo->prepare($query);
+	// 		$success = $statement->execute();
+	// 		$output = $statement->fetchAll();
+	// 		return $output;	
+	// 	} 
+	// 	catch (Exception $e) 
+	// 	{
+	// 		 var_dump("Select query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
+	// 		 return false;
+	// 	}	
+	// }
+
+	// public function deleteQuery($query)
+	// {
+	//  	try 
+	// 	{
+	// 		$pdo = $this->connect();
+	// 		$insertStatement = $pdo->prepare($query);
+	// 		$insertSuccess = $insertStatement->execute();
+	// 		return true;	
+	// 	} 
+	// 	catch (Exception $e) 
+	// 	{
+	// 		 var_dump("Delete query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
+	// 		 return false;
+	// 	}
+	// }
+
+	// public function updateQuery($query)
+	// {
+	// 	try 
+	// 	{
+	// 		$pdo = $this->connect();
+	// 		$insertStatement = $pdo->prepare($query);
+	// 		$insertSuccess = $insertStatement->execute();
+	// 		return true;	
+	// 	} 
+	// 	catch (Exception $e) 
+	// 	{
+	// 		 var_dump("update query failed, insert query statement was".$query." the exception thrown by PHP was ".$e);
+	// 		 return false;
+	// 	}
+	// }
 }
 
 

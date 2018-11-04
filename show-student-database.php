@@ -1,10 +1,15 @@
 <?php 
+session_start();
+if($_SESSION['username']== null)
+{
+  header('location:login.php');
+}
 
 require_once('dal.php');
 
 $databaseObject = new Database();
 $selectQuery="SELECT * FROM `student`";
-$output = $databaseObject->selectQuery($selectQuery);
+$output = $databaseObject->executeQuery($selectQuery,'select');
 
 ?>
 <!DOCTYPE html>
@@ -55,8 +60,9 @@ $output = $databaseObject->selectQuery($selectQuery);
    
 
  	   
-  </tbody>
-  <a href="/">Add Student</a>
+</tbody>
+  <a href="/">Add Student</a><br>
+  <a href="/logout.php">Logout</a>
 </table>
 
 
