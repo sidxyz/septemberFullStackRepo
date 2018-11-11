@@ -1,9 +1,3 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -24,6 +18,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+    @yield('style')
+
     <link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen" property="" />
     <link href="css/fontawesome-all.css" rel="stylesheet">
@@ -63,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="logo text-left">
                             <h1>
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index ">
                             Shipment</a>
                             </h1>
                         </div>
@@ -77,12 +74,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-lg-auto text-right">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home
+                                    <a class="nav-link" href="index ">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="/about">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -90,17 +87,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <i class="fas fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="services.html">Services</a>
-                                        <a class="dropdown-item" href="services.html" title="">Services 1</a>
+                                        <a class="dropdown-item" href="services ">Services</a>
+                                        <a class="dropdown-item" href="services " title="">Services 1</a>
 
-                                        <a class="dropdown-item" href="single.html" title="">Single Page</a>
+                                        <a class="dropdown-item" href="single " title="">Single Page</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="price.html">Pricing</a>
+                                    <a class="nav-link" href="price ">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact ">Contact</a>
                                 </li>
 
                             </ul>
@@ -143,7 +140,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="row footer-bottom-wthree mt-lg-5 mt-3">
                     <div class="col-lg-6 copyright">
-                        <h2><a class="navbar-brand" href="index.html">
+                        <h2><a class="navbar-brand" href="index ">
                             Shipment</a></h2>
                         <p class="copy-right mt-3">© 2018 Shipment. All Rights Reserved | Design by
                             <a href="http://w3layouts.com/"> W3layouts </a>
@@ -152,19 +149,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="col-lg-6 social-icon footer">
                         <ul class="links-nav d-flex justify-content-end">
                             <li>
-                                <a class="active" href="index.html">Home</a>
+                                <a class="active" href="index ">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about ">About</a>
                             </li>
                             <li>
-                                <a href="services.html">Services</a>
+                                <a href="services ">Services</a>
                             </li>
                             <li>
-                                <a href="price.html">Pricing</a>
+                                <a href="price ">Pricing</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact ">Contact</a>
                             </li>
                         </ul>
                         <ul class="social-icons d-flex justify-content-end mt-3">
@@ -269,6 +266,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--//Register-->
     <!--//model-form-->
     <!-- js -->
+
+    @yield('scripts')
+
     <script src="js/jquery-2.2.3.min.js"></script>
     <!-- carousel -->
     <script src="js/owl.carousel.js"></script>

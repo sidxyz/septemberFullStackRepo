@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/test', function () {
+Route::get('/index', function () {
     return view('index');
 });
 
@@ -28,6 +28,18 @@ Route::get('/services', function () {
 
 Route::get('/about', function () {
     return view('about');
+});
+
+Route::get('/contact','Controller@contactEmail');
+
+Route::post('/addServices','Controller@addService');
+
+Route::get('/single', function () {
+    return view('single');
+});
+
+Route::get('/price', function () {
+    return view('price');
 });
 
 Auth::routes();

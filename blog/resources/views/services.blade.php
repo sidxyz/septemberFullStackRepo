@@ -18,17 +18,17 @@
         <div class="container">
             <div class="inner-sec-w3layouts py-lg-5 py-3">
                 <div class="intro text-left">
-                    <h3 class="main mb-md-5 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod tempor incididunt ut labore et dolore.</h3>
-                    <p>Adipisicing elit sedc eiusmod tempor incididunt ut labore et dolore.</p>
+                    <h3 class="main mb-md-5 mb-3">Here is a listing of all our services.</h3>
+                    
                 </div>
                 <div class="row mt-lg-5 mt-md-4 mt-4">
                     <div class="col-lg-4 about-in text-left">
                         <div class="card">
                             <div class="card-body">
                                 <i class="fas fa-anchor mb-2"></i>
-                                <h6 class="my-3">Consectetur elit</h6>
-                                <h5 class="card-title">Ocean Freight</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
+                                <h6 class="my-3">Service Heading</h6>
+                                <h5 class="card-title">Service Subheading</h5>
+                                <p class="card-text">Service Description Service Description Service Description Service Description Service Description.</p>
                             </div>
                         </div>
 
@@ -193,3 +193,9 @@
 
     <!--/newsletter-->
 @endsection
+
+
+@section('scripts')
+<script type="text/javascript">
+    //alert("Hello World");
+</script>

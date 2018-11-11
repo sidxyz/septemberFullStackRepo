@@ -1,9 +1,3 @@
-<!--
-	Author: W3layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -43,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>The right choice</p>
                         <h3>Propel <span>yourself</span> into the future.</h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="contact ">
                             Contact</a>
                         </div>
 
@@ -54,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>Ready to go</p>
                         <h3>Premium Worldwide <span>Logistics</span> Network </h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="contact ">
                             Contact</a>
                         </div>
 
@@ -65,7 +59,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <p>The right choice.</p>
                         <h3>Propel <span>yourself</span> into the future.</h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="contact ">
                             Contact</a>
                         </div>
 
@@ -116,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="logo text-left">
                             <h1>
-                                <a class="navbar-brand" href="index.html">
+                                <a class="navbar-brand" href="index ">
                             Shipment</a>
                             </h1>
                         </div>
@@ -130,12 +124,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-lg-auto text-right">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home
+                                    <a class="nav-link" href="index ">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="about ">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -143,17 +137,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <i class="fas fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="services.html">Services</a>
-                                        <a class="dropdown-item" href="services.html" title="">Services 1</a>
+                                        <a class="dropdown-item" href="services ">Services</a>
+                                        <a class="dropdown-item" href="services " title="">Services 1</a>
 
-                                        <a class="dropdown-item" href="single.html" title="">Single Page</a>
+                                        <a class="dropdown-item" href="single " title="">Single Page</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="price.html">Pricing</a>
+                                    <a class="nav-link" href="price ">Pricing</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact ">Contact</a>
                                 </li>
 
                             </ul>
@@ -272,7 +266,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li><span>Admin Name</span>Comany Namer</li>
                     </ul>
                     <div class="log-in mt-md-5 mt-3">
-                        <a class="btn text-uppercase" href="single.html">
+                        <a class="btn text-uppercase" href="single ">
                                     Read More</a>
                     </div>
 
@@ -448,7 +442,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             <li>Lorem Ipsum is simply</li>
                                                         </ul>
                                                         <div class="log-in mt-md-3 mt-2">
-                                                            <a class="btn text-uppercase" href="single.html">
+                                                            <a class="btn text-uppercase" href="single ">
                                                         Read More</a>
                                                         </div>
                                                     </div>
@@ -470,7 +464,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             <li>Lorem Ipsum is simply</li>
                                                         </ul>
                                                         <div class="log-in mt-md-3 mt-2">
-                                                            <a class="btn text-uppercase" href="single.html">
+                                                            <a class="btn text-uppercase" href="single ">
                                                         Read More</a>
                                                         </div>
                                                     </div>
@@ -498,7 +492,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             <li>Lorem Ipsum is simply</li>
                                                         </ul>
                                                         <div class="log-in mt-md-3 mt-2">
-                                                            <a class="btn text-uppercase" href="single.html">
+                                                            <a class="btn text-uppercase" href="single ">
                                                         Read More</a>
                                                         </div>
                                                     </div>
@@ -520,7 +514,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             <li>Lorem Ipsum is simply</li>
                                                         </ul>
                                                         <div class="log-in mt-md-3 mt-2">
-                                                            <a class="btn text-uppercase" href="single.html">
+                                                            <a class="btn text-uppercase" href="single ">
                                                         Read More</a>
                                                         </div>
                                                     </div>
@@ -560,7 +554,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <img src="images/g7.jpg" alt="" class="img-fluid">
                                 <div class="blog-des">
                                     <span class="entry-date">June 18, 2018</span>
-                                    <h5 class="card-title text-uppercase mt-2"><a href="single.html">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
+                                    <h5 class="card-title text-uppercase mt-2"><a href="single ">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.
                                     </p>
                                 </div>
@@ -573,7 +567,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <img src="images/g1.jpg" alt="" class="img-fluid">
                                 <div class="blog-des">
                                     <span class="entry-date">June 20, 2018</span>
-                                    <h5 class="card-title text-uppercase mt-2"><a href="single.html">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
+                                    <h5 class="card-title text-uppercase mt-2"><a href="single ">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.
                                     </p>
                                 </div>
@@ -586,7 +580,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <img src="images/g4.jpg" alt="" class="img-fluid">
                                 <div class="blog-des">
                                     <span class="entry-date">June 25, 2018</span>
-                                    <h5 class="card-title text-uppercase mt-2"><a href="single.html">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
+                                    <h5 class="card-title text-uppercase mt-2"><a href="single ">Vivamus id tempor felis. Cras sagittis mi sit amet </a></h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing.
                                     </p>
                                 </div>
@@ -729,7 +723,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="row footer-bottom-wthree mt-lg-5 mt-3">
                     <div class="col-lg-6 copyright">
-                        <h2><a class="navbar-brand" href="index.html">
+                        <h2><a class="navbar-brand" href="index ">
                             Shipment</a></h2>
                         <p class="copy-right mt-3">© 2018 Shipment. All Rights Reserved | Design by
                             <a href="http://w3layouts.com/"> W3layouts </a>
@@ -738,20 +732,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="col-lg-6 social-icon footer">
                         <ul class="links-nav d-flex justify-content-end">
                             <li>
-                                <a class="active" href="index.html">Home</a>
+                                <a class="active" href="index ">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about ">About</a>
                             </li>
 
                             <li>
-                                <a href="services.html">Services</a>
+                                <a href="services ">Services</a>
                             </li>
                             <li>
-                                <a href="price.html">Pricing</a>
+                                <a href="price ">Pricing</a>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact ">Contact</a>
                             </li>
                         </ul>
                         <ul class="social-icons d-flex justify-content-end mt-3">
