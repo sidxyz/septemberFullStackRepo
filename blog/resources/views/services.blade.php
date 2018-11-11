@@ -22,18 +22,21 @@
                     
                 </div>
                 <div class="row mt-lg-5 mt-md-4 mt-4">
+
+                    @foreach($services as $service)
                     <div class="col-lg-4 about-in text-left">
                         <div class="card">
                             <div class="card-body">
-                                <i class="fas fa-anchor mb-2"></i>
-                                <h6 class="my-3">Service Heading</h6>
-                                <h5 class="card-title">Service Subheading</h5>
-                                <p class="card-text">Service Description Service Description Service Description Service Description Service Description.</p>
+                                <i class="fas {{$service->icon}} mb-2"></i>
+                                <h6 class="my-3">{{$service->heading}}</h6>
+                                <h5 class="card-title">{{$service->sub_heading}}</h5>
+                                <p class="card-text">{{$service->description}}</p>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-lg-4 about-in text-left">
+                    @endforeach
+                    <!-- <div class="col-lg-4 about-in text-left">
                         <div class="card">
                             <div class="card-body">
 
@@ -89,7 +92,7 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur elit,Adipisicing elit tempor.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
 

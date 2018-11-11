@@ -33,6 +33,12 @@ class Controller extends BaseController
     public function addService(Request $request)
     {
     	$service = Service::Create($request->all());
-		//dd("service added!");
+    }
+
+    public function showServices()
+    {
+    	$services = new Service;
+    	$services = $services->all();
+    	return view('services')->with('services',$services);
     }
 }

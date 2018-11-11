@@ -21,9 +21,7 @@ Route::get('/index', function () {
 });
 
 
-Route::get('/services', function () {
-    return view('services');
-});
+Route::get('/services','Controller@showServices');
 
 
 Route::get('/about', function () {
@@ -45,3 +43,7 @@ Route::get('/price', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/servicesBackEnd', 'HomeController@showServices');
+
+Route::get('/deleteService/{id}', 'HomeController@deleteService');
