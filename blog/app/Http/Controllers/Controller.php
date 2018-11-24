@@ -33,6 +33,7 @@ class Controller extends BaseController
     public function addService(Request $request)
     {
     	$service = Service::Create($request->all());
+        return redirect('services');
     }
 
     public function showServices()

@@ -39,4 +39,29 @@ class HomeController extends Controller
         Service::Destroy($id);
         return redirect('servicesBackEnd');
     }
+
+    public function updateService($id)
+    {
+        $service = new Service();
+        $service = $service->where('id',$id)->get();
+        $service = $service[0]; 
+        //dd($service);
+        return view('updateServicesBackEnd')->with('service',$service);
+    }
+
+    public function updateServicesData(Request $request)
+    {
+        $service = new Service();
+        $service = $service->where('id',$request->id)->get();
+        $service = $service[0];
+        
+        $service->heading = $request->heading;
+        $service->sub_heading = $request->sub_heading;
+        $service->description = $request->description;
+        $service->icon = $request->icon;
+
+        $service->save();
+
+        return redirect('servicesBackEnd');
+    }
 }

@@ -47,3 +47,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/servicesBackEnd', 'HomeController@showServices');
 
 Route::get('/deleteService/{id}', 'HomeController@deleteService');
+
+Route::get('/updateService/{id}', 'HomeController@updateService');
+
+Route::post('/updateServicesData','HomeController@updateServicesData');

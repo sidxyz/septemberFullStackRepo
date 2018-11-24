@@ -34,7 +34,8 @@
                         <td>{{$service->sub_heading}}</td>
                         <td>{{$service->description}}</td>
                         <td><i class="fas {{$service->icon}} mb-2"></i></td>
-                        <td><a href="/deleteService/{{$service->id}}" style="color:green">Delete</a> || <a href="#" style="color:green">Edit</a></td>
+                        <td><a href="/deleteService/{{$service->id}}" style="color:green">Delete</a> || 
+                          <a href="/updateService/{{$service->id}}" style="color:green">Edit</a></td>
                       </tr>
                       @endforeach
                      

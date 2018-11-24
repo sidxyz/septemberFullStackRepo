@@ -14,7 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-     <link href="css/fontawesome-all.css" rel="stylesheet">
+     <link href="/css/fontawesome-all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
@@ -78,4 +78,5 @@
         </main>
     </div>
 </body>
+@yield('scripts')
 </html>
