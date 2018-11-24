@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Service;
+use App\Review;
 
 class HomeController extends Controller
 {
@@ -63,5 +64,17 @@ class HomeController extends Controller
         $service->save();
 
         return redirect('servicesBackEnd');
+    }
+
+    public function addReview(Request $request)
+    {
+        $review = new Review();
+        //dd($request->content);
+        $review->content = $request->content;
+        $review->service_id = $request->service_id;
+
+        $review->save();
+
+        return redirect('services');
     }
 }

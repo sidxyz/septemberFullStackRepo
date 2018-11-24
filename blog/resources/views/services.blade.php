@@ -28,9 +28,26 @@
                         <div class="card">
                             <div class="card-body">
                                 <i class="fas {{$service->icon}} mb-2"></i>
-                                <h6 class="my-3">{{$service->heading}}</h6>
+                                <h2 class="my-3">{{$service->heading}}</h6>
                                 <h5 class="card-title">{{$service->sub_heading}}</h5>
                                 <p class="card-text">{{$service->description}}</p>
+                                <br>
+                                <hr>
+                                <p>Enter your review here</p>
+                                <form method="POST" action="addReview">
+                                    {{csrf_field()}}
+                                <input type="text" name="content" >
+                                <input type="hidden" name="service_id" value="{{$service->id}}">
+                                <button type="submit">Add Review </button>
+                                </form>
+                                <br>
+                                <h6><b>Existing Reviews:</b></h6>
+                                    @foreach ($service->review as $review)
+                                    <hr>
+                                    <p>{{$review->content}}</p>
+                                    </hr>
+                                    @endforeach
+                                <hr>
                             </div>
                         </div>
 

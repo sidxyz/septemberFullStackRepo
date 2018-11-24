@@ -51,3 +51,5 @@ Route::get('/deleteService/{id}', 'HomeController@deleteService');
 Route::get('/updateService/{id}', 'HomeController@updateService');
 
 Route::post('/updateServicesData','HomeController@updateServicesData');
+
+Route::post('/addReview','HomeController@addReview');
